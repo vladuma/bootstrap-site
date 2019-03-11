@@ -1,0 +1,25 @@
+header {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  width: 100%;
+}
+header > div {
+  padding: 35px 7%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  transition: .5s;
+}
+#nav-wrapper .nav-item > a {
+  text-align: right;
+  font-size: 10pt;
+  text-transform: uppercase;
+  color: #191919;
+}
+#nav-wrapper .nav-item > a:active{
+  color: #10c9c3;
+}
+#nav-wrapper .navbar .navbar-toggler {
+  font-size: 1rem;
+}

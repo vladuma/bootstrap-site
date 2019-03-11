@@ -1,0 +1,111 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: NunitoSans;
+  src: url(../fonts/NunitoSans-Regular.ttf);
+}
+@-webkit-keyframes enlarge-icon {
+    100% {
+        -webkit-transform: scale(1,1);
+    }
+}
+@keyframes enlarge-icon {
+    100% {
+        transform: scale(1,1);
+    }
+}
+@-webkit-keyframes section-turn {
+  100% {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@keyframes section-turn {
+  100% {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+section.section-reveal {
+  position: relative;
+
+  -webkit-perspective: 1200px;
+  -moz-perspective: 1200px;
+  -ms-perspective: 1200px;
+  perspective: 2200px;
+
+  perspective-origin: center;
+
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+
+  -webkit-animation: section-turn 1.1s ease-in-out;
+  animation: section-turn 1.1s ease-in-out;
+  /* -webkit-transform: rotate3d(-15, 0, 0, 55deg);
+  transform: rotate3d(-15, 0, 0, 55deg); */
+
+  -webkit-transform: rotate3d(33, 0, 0, 90deg);
+  transform: rotate3d(33, 0, 0, 90deg);
+
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+i.appear {
+    -webkit-animation: enlarge-icon 3s;
+    animation: enlarge-icon 3s;
+    -webkit-transform: scale(0,0);
+    transform: scale(0,0);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html body {
+  font-family: 'NuritoSans', sans-serif!important;
+  font-size: 0.9rem
+}
+body {
+  overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6, nav a {
+  font-family: 'Montserrat', sans-serif!important;
+}
+body .text-primary {
+  color: #787878;
+}
+#testimonials q {
+  font-size: large;
+  line-height: 20pt;
+}
+#testimonials q::before {
+    content: "“"!important;
+    font-size: 29pt;
+}
+#testimonials q::after {
+    content: "”"!important;
+    font-size: 29pt;
+}
+.custom-button {
+  padding: 11px 21px;
+  background-color: #10c9c3;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.el-hidden {
+  display: none;
+}
+@media (max-width: 767px) {
+  input[type="email"]{
+    padding-left: 5px!important;
+  }
+}

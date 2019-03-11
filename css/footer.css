@@ -1,0 +1,18 @@
+footer {
+  background-color: #141414;
+  color: #bcbcbc;
+  padding: 100px 7%;
+}
+footer a {
+  color: #bcbcbc;
+  text-decoration: none;
+}
+footer .row div:last-child {
+  text-align: center;
+}
+@media (max-width: 767px) {
+  footer ul.icons{
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

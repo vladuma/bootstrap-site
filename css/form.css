@@ -1,0 +1,38 @@
+
+#contact-us{
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 150px 0;
+}
+/* #contact-us form {
+  padding: 0 15px;
+} */
+#contact-us div[class^="col-"]{
+  margin: 0;
+  padding: 0;
+}
+#contact-us .row div[class^="col-"]:first-child {
+  padding-right: 15px;
+}
+#contact-us .row div[class^="col-"]:last-child {
+  padding-left: 15px;
+}
+#contact-us input,
+#contact-us textarea{
+  margin: 15px 0;
+  border: none;
+  padding: 18px 20px;
+}
+
+.send-status > div {
+  display: none;
+}
+.send-status i {
+  vertical-align: middle;
+}
+.send-status .form-success-message {
+  color: green;
+}
+.send-status .form-error-message {
+  color: red;
+}

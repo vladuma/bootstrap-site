@@ -1,0 +1,50 @@
+header > div {
+  position: relative!important;
+}
+section.project {
+  background-color: #f6f6f6;
+}
+div.project-description-block {
+  padding: 100px 7%;
+}
+div.project-right-bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.custom-button {
+  width: 140px;
+}
+.custom-button a {
+  color: white;
+  text-decoration: none;
+}
+.custom-button a:hover {
+  text-decoration: none;
+}
+h2 {
+  margin-bottom: 13px;
+}
+section.project-navigation .row{
+  align-items: center;
+}
+section.project-navigation .col-md-4 {
+  padding: 42px 7%;
+  text-align: center;
+}
+section.project-navigation h6 {
+  font-size: 10pt;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+section.project-navigation i{
+  cursor: pointer;
+}
+section.project-navigation a{
+  color: black;
+  text-decoration: none;
+}
+section.project-navigation a:hover{
+  color: grey;
+  text-decoration: none;
+}
